@@ -11,11 +11,6 @@ function agregarAmigo() {
         return;
     }
 
-    if (amigos.includes(nombre)) {
-        alert("Este nombre ya ha sido agregado.");
-        return;
-    }
-
     amigos.push(nombre);
 
     const li = document.createElement("li");
